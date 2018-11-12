@@ -1,0 +1,13 @@
+var today = new Date('9/1/2018 14:52:10');
+var day=today.getDate();
+document.write("<p>Dia: "+day+"</p>");
+var mes=today.getMonth();
+document.write("<p>Mes: "+mes+"</p>");
+var ano=today.getFullYear();
+document.write("<p>A&ntilde;o: "+ano+"</p>");
+var hora=today.getHours();
+document.write("<p>Hora: "+hora+"</p>");
+var min=today.getMinutes();
+document.write("<p>Minutos: "+min+"</p>");
+var seg=today.getSeconds();
+document.write("<p>Segundos: "+seg+"</p>");
